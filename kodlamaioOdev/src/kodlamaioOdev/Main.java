@@ -4,36 +4,36 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Lesson lesson1 = new Lesson(1, "Yazýlým Geliþtirici Yetiþtirme Kampý",
-				"2 ay sürecek ücretsiz ve profesyonel bir programla, sýfýrdan yazýlým geliþtirme öðreniyoruz.",
-				"Engin Demiroð", "Ücretsiz");
+		Lesson lesson1 = new Lesson(1, "YazÄ±lÄ±m GeliÅŸtirici YetiÅŸtirme KampÄ±",
+				"2 ay sÃ¼recek Ã¼cretsiz ve profesyonel bir programla, sÄ±fÄ±rdan yazÄ±lÄ±m geliÅŸtirme Ã¶ÄŸreniyoruz.",
+				"Engin DemiroÄŸ", "Ãœcretsiz");
 		
 		Lesson lesson2 = new Lesson();
 		lesson2.id = 2;
-		lesson2.desc = "2 ay sürecek ücretsiz ve profesyonel bir programla, sýfýrdan yazýlým geliþtirme öðreniyoruz.";
-		lesson2.instructor = "Engin Demiroð";
-		lesson2.title = "Yazýlým Geliþtirici Yetiþtirme Kampý (JAVA & REACT)";
-		lesson2.price = "Ücretsiz";
-		Lesson lesson3 = new Lesson(3, "Programlamaya Giriþ Ýçin Temel Kurs",
-				"PYTHON, JAVA, C# gibi tüm programlama dilleri için temel programlama mantýðýný anlaþýlýr örneklerle öðrenin.",
-				"Engin Demiroð", "Ücretsiz");
+		lesson2.desc = "2 ay sÃ¼recek Ã¼cretsiz ve profesyonel bir programla, sÄ±fÄ±rdan yazÄ±lÄ±m geliÅŸtirme Ã¶ÄŸreniyoruz.";
+		lesson2.instructor = "Engin DemiroÄŸ";
+		lesson2.title = "YazÄ±lÄ±m GeliÅŸtirici YetiÅŸtirme KampÄ± (JAVA & REACT)";
+		lesson2.price = "Ãœcretsiz";
+		Lesson lesson3 = new Lesson(3, "Programlamaya GiriÅŸ Ä°Ã§in Temel Kurs",
+				"PYTHON, JAVA, C# gibi tÃ¼m programlama dilleri iÃ§in temel programlama mantÄ±ÄŸÄ±nÄ± anlaÅŸÄ±lÄ±r Ã¶rneklerle Ã¶ÄŸrenin.",
+				"Engin DemiroÄŸ", "Ãœcretsiz");
 
-		Lesson[] lesson = { lesson1,lesson2,lesson3 };
+		Lesson[] lessons = { lesson1,lesson2,lesson3 };
 
-		for (Lesson lessons : lesson) {
-			System.out.println(lessons.title);
-			System.out.println(lessons.desc);
-			System.out.println(lessons.instructor);
-			System.out.println(lessons.price);
+		for (Lesson lesson : lessons) {
+			System.out.println(lesson.title);
+			System.out.println(lesson.desc);
+			System.out.println(lesson.instructor);
+			System.out.println(lesson.price);
 		}
 		
 		LessonManager lessonManager = new LessonManager();
 		
-		lessonManager.EnterTheProgram(lesson1.id,lesson1.title);
-		lessonManager.EnterTheProgram(lesson2.id,lesson2.title);
-		lessonManager.EnterTheProgram(lesson3.id,lesson3.title);
+		lessonManager.enterTheProgram(lesson1.id,lesson1.title);
+		lessonManager.enterTheProgram(lesson2.id,lesson2.title);
+		lessonManager.enterTheProgram(lesson3.id,lesson3.title);
 		
-		lessonManager.QuitTheProgram(lesson2.id, lesson2.title);
+		lessonManager.quitTheProgram(lesson2.id, lesson2.title);
 		
 
 	}
