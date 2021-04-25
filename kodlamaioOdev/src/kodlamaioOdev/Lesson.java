@@ -5,6 +5,7 @@ public class Lesson {
 
 	}
 	public Lesson(int id, String title, String desc, String instructor, String price) {
+		this();
 		this.id = id;
 		this.title = title;
 		this.desc = desc;
