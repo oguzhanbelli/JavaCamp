@@ -1,0 +1,18 @@
+package conditionals;
+
+public class Main {
+	public static void main(String[] args) {
+		int sayi = 21;
+		
+		if(sayi == 20) {
+			
+		 System.out.println("Sayýnýz " + sayi);
+		}else if(sayi < 20) {
+			System.out.println("Yukarý");
+		}else {
+			System.out.println("Aþþaðý");
+		}
+		
+	}
+
+}

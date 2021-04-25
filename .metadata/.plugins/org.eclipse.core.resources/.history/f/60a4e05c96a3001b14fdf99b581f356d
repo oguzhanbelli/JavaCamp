@@ -1,0 +1,67 @@
+package recapDemo1;
+
+public class Main {
+	public static void main(String[] args) {
+		int sayi1 = 25;
+		int sayi2 = 26;
+		int sayi3 = 2;
+		if (sayi1 > sayi2 && sayi1 > sayi3) {
+
+			System.out.println("Sayý 1 büyüktür");
+
+		} else if (sayi2 > sayi1 && sayi2 > sayi3) {
+			System.out.println("Sayý 2 büyüktür");
+		} else if (sayi3 > sayi2 && sayi3 > sayi2) {
+			System.out.println("Sayý 3 büyüktür");
+		} else {
+			System.out.println("Sayýlarda Eþit olan var");
+		}
+
+		char grade = 'B';
+		switch (grade) {
+
+		case 'A':
+			System.out.println("Mükemmel Geçtiniz");
+			break;
+		case 'B':
+		case 'C':
+			System.out.println("Orta Geçtiniz");
+			break;
+		case 'D':
+			System.out.println("Eh iþte");
+			break;
+		case 'F':
+			System.out.println("Malesef Kaldýnýz");
+			break;
+		default:
+			System.out.println("Geçersiz Not Girdiniz");
+			break;
+		}
+		for (int i = 1; i <= 10; i++) {
+			System.out.println(i);
+		}
+		for (int i = 1; i <= 10; i += 2) {// tek sayýlar
+			System.out.println(i);
+		}
+		for (int i = 2; i <= 10; i += 2) {// çift sayýlar
+			System.out.println(i);
+		}
+		int i = 0;
+		while (i < 10) {
+
+			i++;
+			System.out.println("While Döngüsü" + i);
+
+		}
+
+		// Do while
+		int j = 0;
+		do {
+			System.out.println("While Döngüsü" + j);
+			j++;
+
+		} while (j < 10);
+
+	}
+
+}

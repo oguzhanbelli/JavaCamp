@@ -1,0 +1,16 @@
+package recapDemo2;
+
+public class Main {
+	public static void main(String[] args) {
+		 double[] myList = {1.2,3.4,1.4,4.3};
+		 double total = 0;
+		 for(double numbers:myList) {
+			 total = total+numbers;
+			 System.out.println(numbers);
+			
+		 }
+		 System.out.println("Toplam = "+total);
+		 
+	}
+
+}

@@ -1,0 +1,5 @@
+package mukemmelSayi;
+
+public class Main {
+
+}
