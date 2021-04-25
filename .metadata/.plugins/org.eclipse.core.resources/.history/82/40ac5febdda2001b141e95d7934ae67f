@@ -1,0 +1,55 @@
+package intro;
+
+
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		// camelCase
+
+		// Don't repeat yourself
+		String internetSubeButonu = "Ýnternet Þubesi";
+		System.out.println(internetSubeButonu);
+		
+
+		double dolarDun = 8.10;
+		double dolarBugun = 8.10;
+		int vade = 36;
+		boolean dustuMu;
+
+		if (dolarBugun < dolarDun) {
+			System.out.println("Dolar Düþmüþ");
+			dustuMu = true;
+			System.out.println(dustuMu);
+		} else if (dolarBugun > dolarDun) {
+			System.out.println("Dolar Artmýþ");
+			dustuMu = false;
+			System.out.println(dustuMu);
+
+		}
+
+		else {
+
+			System.out.println("Dolar Eþittir");
+
+		}
+		String kredi1 = "Hýzlý Kredi";
+		String kredi2 = "Mutlu Emekli Kredisi";
+		String kredi3 = "Konut Kredisi";
+		String kredi4 = "Kamu Kredisi";
+		String kredi5 = "Konut Kredi";
+		
+		
+		
+		System.out.println(kredi1);
+		
+		String[] krediler = {"Hýzlý Kredi","Mutlu Emekli Kredisi","Konut Kredisi","Kamu Kredisi","Konut Kredi"};
+		System.out.println(krediler);
+		
+		
+
+		
+	}
+
+}

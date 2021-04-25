@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+<<<<<<< HEAD
+processedSchemes=,eclipse+command,eclipse+mpc
+=======
+processedSchemes=,eclipse+mpc,eclipse+command
+>>>>>>> 32036e3 (create commit)

@@ -1,0 +1,12 @@
+package oopIntro;
+
+public class Category {
+	
+	public Category() {
+		System.out.println("Ben Kategori ben çalýþtým");
+	}
+	int id;
+	String name;
+	
+
+}

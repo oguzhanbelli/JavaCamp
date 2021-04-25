@@ -1,0 +1,19 @@
+package arraysDemo;
+
+public class Main {
+	public static void main(String[] args) {
+		String ogrenci1= "Engin";
+		String ogrenci2="Derin";
+		String ogrenci3="Salih";
+		System.out.println("Ayný Tip Normal Deðiþken"+ogrenci1);
+		System.out.println("Ayný Tip Normal Deðiþken"+ogrenci2);
+		System.out.println(("Ayný Tip Normal Deðiþken"+ogrenci3));
+		
+		String[] ogrenciler = {"Engin","Salih","Derin"};
+		
+		for(String ogrenci : ogrenciler) {
+			System.out.println("Array "+ogrenci);
+		}
+	}
+
+}

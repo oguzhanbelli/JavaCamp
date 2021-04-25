@@ -1,0 +1,25 @@
+package miniProjeAsalSayi;
+
+public class Main {
+	public static void main(String[] args) {
+		boolean isPrime2 = true;
+		for (int i = 2; i < 100; i++) {
+			for (int number = 4; i < number; number++) {
+				if (number % i == 0) {
+					isPrime2 = false;
+
+				}
+				if (isPrime2) {
+
+					System.out.println("Sayý Asaldýr");
+				} else {
+					System.out.println("Sayý Asal Deðildir");
+				}
+
+			}
+		}
+
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<<<<<<< HEAD
+        <listEntry value="/intro/src/intro/Main.java"/>
+=======
+        <listEntry value="/oopIntro/src/oopIntro/Main.java"/>
+>>>>>>> 32036e3 (create commit)
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+<<<<<<< HEAD
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="intro.Main"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value=""/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="intro"/>
+=======
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="oopIntro.Main"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value=""/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="oopIntro"/>
+>>>>>>> 32036e3 (create commit)
+</launchConfiguration>

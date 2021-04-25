@@ -1,0 +1,21 @@
+package intro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		//camelCase
+		
+		//Don't repeat yourself
+		String internetSubeButonu = "Ýnternet Þubesi";
+		
+		double dolarDun = 3.14;
+		double dolarBugun = 3.18;
+		
+		
+		System.out.println(internetSubeButonu);
+		System.out.println(dolarDun - dolarBugun);
+	}
+
+}

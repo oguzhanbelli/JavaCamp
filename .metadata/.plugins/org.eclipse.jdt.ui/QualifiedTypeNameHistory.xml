@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<<<<<<< HEAD
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.code.Attribute.Array"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+=======
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="oopIntro.Product"/>
+    <fullyQualifiedTypeName name="oopIntro.ProductManager"/>
+>>>>>>> 32036e3 (create commit)
+</qualifiedTypeNameHistroy>

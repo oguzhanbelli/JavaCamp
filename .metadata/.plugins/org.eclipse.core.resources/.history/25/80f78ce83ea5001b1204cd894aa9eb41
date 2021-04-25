@@ -1,0 +1,8 @@
+package oopIntro;
+
+public class ProductManager {
+	public void addToCart() {
+		System.out.println("Ben bir methodum Sepete Ekle");
+	}
+
+}
