@@ -6,11 +6,11 @@ public class Main {
 		
 		if(sayi == 20) {
 			
-		 System.out.println("Sayınız " + sayi);
+		 System.out.println("SayÄ±nÄ±z " + sayi);
 		}else if(sayi < 20) {
-			System.out.println("Yukarı");
+			System.out.println("YukarÄ±");
 		}else {
-			System.out.println("Aşşağı");
+			System.out.println("AÅŸÅŸaÄŸÄ±");
 		}
 		
 	}
