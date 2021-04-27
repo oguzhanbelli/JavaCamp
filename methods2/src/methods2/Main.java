@@ -3,8 +3,8 @@ package methods2;
 public class Main {
 
 	public static void main(String[] args) {
-		String mesaj = "Bugün hava çok güzel.";
-		String yeniMesaj = mesaj.substring(0,2);//başlangıç dahil bitiş dahil değil.
+		String mesaj = "BugÃ¼n hava Ã§ok gÃ¼zel.";
+		String yeniMesaj = mesaj.substring(0,2);//baÅŸlangÄ±Ã§ dahil bitiÅŸ dahil deÄŸil.
 		System.out.println(yeniMesaj);
 		sehirVer();
 		//variable arguments
@@ -19,16 +19,16 @@ public class Main {
 
 	}
 
-	public static void sil() {//void fonksiyonlarda return döndürmek zorunda değiliz.
+	public static void sil() {//void fonksiyonlarda return dÃ¶ndÃ¼rmek zorunda deÄŸiliz.
 		System.out.println("Silindi");
 	}
 
 	public static void guncelle() {
-		System.out.println("Güncellendi");
+		System.out.println("GÃ¼ncellendi");
 
 	}
 	//variable arguments
-	public static int topla(int sayi1,int sayi2) {//int fonksiyonlarda return döndürme yapmak zorundayız.
+	public static int topla(int sayi1,int sayi2) {//int fonksiyonlarda return dÃ¶ndÃ¼rme yapmak zorundayÄ±z.
 		return sayi1+sayi2;
 		
 	}
