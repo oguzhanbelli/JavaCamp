@@ -3,7 +3,7 @@ package classesWithAttributes;
 public class Product {
 	
 	public Product(int _id,String _name,String _desc,double _price,int _stockAmount) {
-		System.out.println("Yapıcı Blok çalıştı");//newlediðimizde çalýþýr.
+		System.out.println("Yapıcı Blok çalıştı");//newlediğimizde çalışır.
 		this._id = _id;
 		this._desc = _desc;
 		this._name = _name;
@@ -21,7 +21,7 @@ public class Product {
 	private int _stockAmount;
 	
 
-	// Methodlar burda yazýlmaz.!!!!!! 'S'OLID.
+	// Methodlar burda yazılmaz.!!!!!! 'S'OLID.
 	// private sadece o blokta geçerli.
 	// getter
 	public int getId() {
@@ -31,7 +31,7 @@ public class Product {
 	// setter
 	public void setId(int id) {
 		_id = id;
-		// this ile eþitleme yapýlýr !! veya baþýna _ koyulur.
+		// this ile eþitleme yapılır !! veya başına _ koyulur.
 	}
 
 	public String getName() {
