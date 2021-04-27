@@ -19,10 +19,10 @@ public class Main {
 		}
 		
 		if(varMi) {
-			mesajVer("Sayı Mevcuttur"+ aranacak);
+			mesajVer("SayÄ± Mevcuttur"+ aranacak);
 			
 		}else {
-			mesajVer("Sayı Mevcut Değildir"+ aranacak);
+			mesajVer("SayÄ± Mevcut DeÄŸildir"+ aranacak);
 		}
 		
 	
