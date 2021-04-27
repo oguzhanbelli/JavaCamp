@@ -1,17 +1,17 @@
 package kodlamaioOdev;
 
 public class LessonManager {
-	public void EnterTheProgram(int lessonId,String lessonTitle) {
+	public void enterTheProgram(int lessonId,String lessonTitle) {
 		this.lessonId = lessonId;
 		this.lessonTitle = lessonTitle;
 		
-		System.out.println(lessonId+" Numaralý "+lessonTitle+" "+"Programýna Dahil Oldunuz.");
+		System.out.println(lessonId+" NumaralÃ½ "+lessonTitle+" "+"ProgramÄ±na Dahil Oldunuz.");
 	}
-	public void QuitTheProgram(int lessonId,String lessonTitle) {
+	public void quitTheProgram(int lessonId,String lessonTitle) {
 		this.lessonId = lessonId;
 		this.lessonTitle = lessonTitle;
 		
-		System.out.println(lessonId+" Numaralý "+lessonTitle+" "+"Programdan Çýkýþ Yaptýnýz.");
+		System.out.println(lessonId+" NumaralÃ½ "+lessonTitle+" "+"Programdan Ã‡Ä±kÄ±ÅŸ YaptÄ±nÄ±z.");
 	}
 	
 	
