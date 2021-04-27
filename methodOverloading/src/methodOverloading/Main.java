@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		dortIslem dortislem = new dortIslem();
 		int sonuc = dortislem.topla(3, 5);
-		int sonuc2 = dortislem.topla(3, 5,6);//METHOD OVERLOADÝNG
+		int sonuc2 = dortislem.topla(3, 5,6);//METHOD OVERLOADING
 		System.out.println(sonuc);
 		System.out.println(sonuc2);
 	}
