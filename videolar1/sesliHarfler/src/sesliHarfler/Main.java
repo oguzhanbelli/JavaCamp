@@ -10,10 +10,10 @@ public class Main {
 	   case'I':
 	   case'O':
 	   case'U':
-		   System.out.println("Kalın Sesli harf");
+		   System.out.println("KalÄ±n Sesli harf");
 		   break;
 		   default:
-			   System.out.println("İnce Sesli Harf");
+			   System.out.println("Ä°nce Sesli Harf");
 	   }
 	   
 	   
