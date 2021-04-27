@@ -3,15 +3,15 @@ package classes;
 public class CustomerManager {
 	public void Add() {
 		
-		System.out.println("Müþteri Eklendi");
+		System.out.println("MÃ¼ÅŸteri Eklendi");
 		
 	}
 	public void Delete() {
-		System.out.println("Müþteri Silindi");
+		System.out.println("MÃ¼ÅŸteri Silindi");
 	}
 	
 	public void Update() {
-		System.out.println("Müþteri Güncellendi");
+		System.out.println("MÃ¼ÅŸteri GÃ¼ncellendi");
 	}
 
 }
