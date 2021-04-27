@@ -29,11 +29,11 @@ public class Main {
 		
 		LessonManager lessonManager = new LessonManager();
 		
-		lessonManager.EnterTheProgram(lesson1.id,lesson1.title);
-		lessonManager.EnterTheProgram(lesson2.id,lesson2.title);
-		lessonManager.EnterTheProgram(lesson3.id,lesson3.title);
+		lessonManager.enterTheProgram(lesson1.id,lesson1.title);
+		lessonManager.enterTheProgram(lesson2.id,lesson2.title);
+		lessonManager.enterTheProgram(lesson3.id,lesson3.title);
 		
-		lessonManager.QuitTheProgram(lesson2.id, lesson2.title);
+		lessonManager.quitTheProgram(lesson2.id, lesson2.title);
 		
 
 	}
