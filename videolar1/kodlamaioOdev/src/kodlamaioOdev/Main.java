@@ -4,19 +4,19 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Lesson lesson1 = new Lesson(1, "Yazılım Geliştirici Yetiştirme Kampı",
-				"2 ay sürecek ücretsiz ve profesyonel bir programla, sıfırdan yazılım geliştirme öğreniyoruz.",
-				"Engin Demiroğ", "Ücretsiz");
+		Lesson lesson1 = new Lesson(1, "YazÄ±lÄ±m GeliÅŸtirici YetiÅŸtirme KampÄ±",
+				"2 ay sÃ¼recek Ã¼cretsiz ve profesyonel bir programla, sÄ±fÄ±rdan yazÄ±lÄ±m geliÅŸtirme Ã¶ÄŸreniyoruz.",
+				"Engin DemiroÄŸ", "Ãœcretsiz");
 		
 		Lesson lesson2 = new Lesson();
 		lesson2.id = 2;
-		lesson2.desc = "2 ay sürecek ücretsiz ve profesyonel bir programla, sıfırdan yazılım geliştirme öğreniyoruz.";
-		lesson2.instructor = "Engin Demiroğ";
-		lesson2.title = "Yazılım Geliştirici Yetiştirme Kampı (JAVA & REACT)";
-		lesson2.price = "Ücretsiz";
-		Lesson lesson3 = new Lesson(3, "Programlamaya Giriş İçin Temel Kurs",
-				"PYTHON, JAVA, C# gibi tüm programlama dilleri için temel programlama mantığını anlaşılır örneklerle öğrenin.",
-				"Engin Demiroğ", "Ücretsiz");
+		lesson2.desc = "2 ay sÃ¼recek Ã¼cretsiz ve profesyonel bir programla, sÄ±fÄ±rdan yazÄ±lÄ±m geliÅŸtirme Ã¶ÄŸreniyoruz.";
+		lesson2.instructor = "Engin DemiroÄŸ";
+		lesson2.title = "YazÄ±lÄ±m GeliÅŸtirici YetiÅŸtirme KampÄ± (JAVA & REACT)";
+		lesson2.price = "Ãœcretsiz";
+		Lesson lesson3 = new Lesson(3, "Programlamaya GiriÃ¾ ÃÃ§in Temel Kurs",
+				"PYTHON, JAVA, C# gibi tÃ¼m programlama dilleri iÃ§in temel programlama mantÄ±ÄŸÄ±nÄ± anlaÅŸÄ±lÄ±r Ã¶rneklerle Ã¶ÄŸrenin.",
+				"Engin DemiroÄŸ", "Ãœcretsiz");
 
 		Lesson[] lesson = { lesson1,lesson2,lesson3 };
 
