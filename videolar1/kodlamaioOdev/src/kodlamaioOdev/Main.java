@@ -14,7 +14,7 @@ public class Main {
 		lesson2.instructor = "Engin Demiroğ";
 		lesson2.title = "Yazılım Geliştirici Yetiştirme Kampı (JAVA & REACT)";
 		lesson2.price = "Ücretsiz";
-		Lesson lesson3 = new Lesson(3, "Programlamaya Giriþ Ýçin Temel Kurs",
+		Lesson lesson3 = new Lesson(3, "Programlamaya Giriş için Temel Kurs",
 				"PYTHON, JAVA, C# gibi tüm programlama dilleri için temel programlama mantığını anlaşılır örneklerle öğrenin.",
 				"Engin Demiroğ", "Ücretsiz");
 
