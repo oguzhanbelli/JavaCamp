@@ -10,10 +10,10 @@ public class Main {
 			}
 		}
 			if(sayi == toplam) {
-				System.out.println("Mükemmel Sayıdır");
+				System.out.println("MÃ¼kemmel SayÄ±dÄ±r");
 				
 			}else {
-				System.out.println("Mükemmel sayı değildir");
+				System.out.println("MÃ¼kemmel sayÄ± deÄŸildir");
 			}
 		}
 	}
