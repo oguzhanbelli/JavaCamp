@@ -9,11 +9,11 @@ public class Main {
 		
 		boolean isPrime = true;
 		if(number == 1) {
-			System.out.println("En küçük asal sayı 2'dir");
+			System.out.println("En kÃ¼Ã§Ã¼k asal sayÄ± 2'dir");
 			return;
 		}
 		if(number <2) {
-			System.out.println("Geçersiz Sayı");
+			System.out.println("GeÃ§ersiz SayÄ±");
 		}else {
 			for(int i = 2; i<number; i++) {
 				if(number %i == 0) {
@@ -24,9 +24,9 @@ public class Main {
 				
 				if(isPrime) {
 					
-					System.out.println("Sayı Asaldır");
+					System.out.println("SayÄ± AsaldÄ±r");
 				}else {
-					System.out.println("Sayı Asal Değildir");
+					System.out.println("SayÄ± Asal DeÄŸildir");
 				}
 		}
 		
