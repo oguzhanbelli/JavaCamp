@@ -1,3 +1,4 @@
+decode UTF-8
 package arraysDemo;
 
 public class Main {
@@ -5,9 +6,9 @@ public class Main {
 		String ogrenci1= "Engin";
 		String ogrenci2="Derin";
 		String ogrenci3="Salih";
-		System.out.println("Aynı Tip Normal Değişken"+ogrenci1);
-		System.out.println("Aynı Tip Normal Değişken"+ogrenci2);
-		System.out.println(("Aynı Tip Normal Değişken"+ogrenci3));
+		System.out.println("AynÄ± Tip Normal DeÄŸiÅŸken"+ogrenci1);
+		System.out.println("AynÄ± Tip Normal DeÄŸiÅŸken"+ogrenci2);
+		System.out.println(("AynÄ± Tip Normal DeÄŸiÅŸken"+ogrenci3));
 		
 		String[] ogrenciler = {"Engin","Salih","Derin"};
 		
@@ -16,7 +17,7 @@ public class Main {
 		}
 		
 		for(int i = 0; i<ogrenciler.length; i++) {
-			System.out.println("Array 2. Kullanım "+ogrenciler[i]);
+			System.out.println("Array 2. KullanÄ±m "+ogrenciler[i]);
 		}
 		
 		int[] numaralar = {1,2,3,4};
