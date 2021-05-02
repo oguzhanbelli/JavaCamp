@@ -1,8 +1,0 @@
-package kodlamaioOdev2;
-
-public class BaseManager {
-	public void add() {
-		System.out.println("Ekleme Yapýldý");
-	}
-
-}

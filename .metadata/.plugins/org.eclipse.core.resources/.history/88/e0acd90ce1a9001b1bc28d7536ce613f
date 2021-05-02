@@ -1,7 +1,0 @@
-package kodlamaioOdev2;
-
-public class InstructorManager extends BaseManager {
-	
-	
-
-}

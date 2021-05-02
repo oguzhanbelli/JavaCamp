@@ -1,8 +1,0 @@
-package kodlamaioOdev2;
-
-public class UserManager extends BaseManager {
-	public void List(User[] users) {
-		
-	
-}
-}
