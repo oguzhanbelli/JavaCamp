@@ -1,0 +1,11 @@
+package kodlamaioOdev2;
+
+public class Student extends User {
+	private String studentNumber;
+	private String address;
+	
+	
+	
+	
+
+}

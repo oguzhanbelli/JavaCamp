@@ -1,0 +1,32 @@
+package kodlamaioOdev2;
+
+public class Student extends User {
+	private String studentNumber;
+	
+	private String address;
+	
+	public Student(String studentNumber, String address) {
+		super();
+		this.studentNumber = studentNumber;
+		this.address = address;
+	}
+
+	public String getStudentNumber() {
+		return studentNumber;
+	}
+
+	public void setStudentNumber(String studentNumber) {
+		this.studentNumber = studentNumber;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	
+	
+
+}

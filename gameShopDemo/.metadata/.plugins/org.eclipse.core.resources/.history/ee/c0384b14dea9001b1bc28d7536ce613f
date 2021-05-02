@@ -1,0 +1,7 @@
+package kodlamaioOdev2;
+
+public class UserManager {
+	public void add() {
+		
+	}
+}
