@@ -7,9 +7,9 @@ public class Main {
 	public static void main(String[] args) {
 
 		Date cDate = new Date(18, 06, 1999);
-		Customer oguzhan = new Customer(1, "Oðuzhan", "Belli", cDate, "26209402308");
+		Customer oguzhan = new Customer(1, "OÄŸuzhan", "Belli", cDate, "26209402308");
 		Game game = new Game(1, "World", 1500);
-		Campaign campaign = new Campaign(1, "Kayýt Bonusu", 15);
+		Campaign campaign = new Campaign(1, "KayÄ±t Bonusu", 15);
 		CustomerManager customerManager = new CustomerManager(new firstLastNameVerification());
 		customerManager.add(oguzhan);
 
