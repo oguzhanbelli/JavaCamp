@@ -15,11 +15,11 @@ public class EmployerManager implements EmployerService {
     @Autowired
     private EmployerDao employerDao;
     @Autowired
-    private ValidationManager validationManager;
+    private ValidationService validationService;
 
     public EmployerManager(EmployerDao employerDao, ValidationManager validationManager) {
         this.employerDao = employerDao;
-        this.validationManager = validationManager;
+        this.validationService = validationService;
     }
 
 
@@ -30,8 +30,8 @@ public class EmployerManager implements EmployerService {
 
     @Override
     public Result add(Employer employer) {
-        if (validationManager.employerValidations(employer)) {
-            if (validationManager.validEmailEmp(employer)) {
+        if (validationService.employerValidations(employer)) {
+            if (validationService.validEmailEmp(employer)) {
                 employerDao.save(employer);
                 return new SuccessResult("Mail Onaylanıp Eklendi");
             }
