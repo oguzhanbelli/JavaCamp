@@ -14,7 +14,7 @@ public class CandidateManager implements CandidateService {
     @Autowired
     private CandidateDao candidateDao;
     @Autowired
-    private ValidationManager validationManager;
+    private ValidationService validationService;
 
     @Override
     public DataResult<List<Candidate>> getAll() {
@@ -25,8 +25,8 @@ public class CandidateManager implements CandidateService {
 
     @Override
     public Result add(Candidate candidate) throws Exception {
-        if (validationManager.candidateValidations(candidate)) {
-            if (validationManager.validEmailCan(candidate)) {
+        if (validationService.candidateValidations(candidate)) {
+            if (validationService.validEmailCan(candidate)) {
                 this.candidateDao.save(candidate);
                 return new SuccessResult("Mail Onaylanıp Eklendi");
             }
